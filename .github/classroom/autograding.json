@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sum",
+      "setup": "gcc Sum.c -o b.out",
+      "run": "./b.out 5 7",
+      "input": "",
+      "output": "12",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Hello",
+      "setup": "gcc Hello.c",
+      "run": "./a.out",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
